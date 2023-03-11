@@ -18,3 +18,5 @@ sequelize.sync({ force: false }).then(() => {
     console.log(`App listening on port ${PORT}!`);
   });
 });
+
+//TODO: I don't understand why it wont import sequelize connection correctly
