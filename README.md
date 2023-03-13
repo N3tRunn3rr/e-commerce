@@ -256,5 +256,11 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
 
+## Link to video walkthrough
+* [Walkthrough](https://drive.google.com/file/d/1cOGSnCJp96shK1_arYYXvpYXHFntwPQl/view)
+
+## Link to GitHub repository
+* [GitHub](https://github.com/N3tRunn3rr/e-commerce)
+
 ---
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
