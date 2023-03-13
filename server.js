@@ -1,11 +1,13 @@
 const express = require('express');
-const sequelize = require('./config/connection');
 const routes = require('./routes');
 
 // import sequelize connection
+const sequelize = require('./config/connection');
+
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3306;
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -20,3 +22,4 @@ sequelize.sync({ force: false }).then(() => {
 });
 
 //TODO: I don't understand why it wont import sequelize connection correctly
+//TODO: Telling me server already in use even after I seed the database
